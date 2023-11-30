@@ -1,5 +1,3 @@
-/*General*/
-
 body {
   background: white;
   color: #000000;
@@ -21,19 +19,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #242424;
 }
 
-/*Footer*/
 
-#na_dnu_vebsajta {
-  margin: 30px 15px;
-}
 
-#na_dnu_vebsajta>#copyright {
-  border-bottom: 1px solid orangered;
-  color: #363636;
-  font-size: 14px;
-}
 
-#na_dnu_vebsajta>#copyright>a {
-  color: #363636;
-  font-size: 14px;
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #141414;
+    color: hsla(0, 0%, 100%, 0.9);
+  }
+
+  a, a:visited, a:hover, a:active {
+    color: #e85d01;
+  }
 }
