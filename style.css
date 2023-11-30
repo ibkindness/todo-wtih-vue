@@ -6,9 +6,20 @@ body {
   word-wrap: break-word !important;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1008px;
-  padding: 0 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#todo-list-example {
+  max-width: 1008px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  text-align: center;
+  margin-top: -8px;
+  padding: 8px;
 }
 
 a {
@@ -28,7 +39,26 @@ h1, h2, h3, h4, h5, h6 {
     color: hsla(0, 0%, 100%, 0.9);
   }
 
+  #todo-list-example {
+    color: hsla(0, 0%, 100%, 0.9);
+  }
+
+  header, footer {
+    background-color: black;
+  }
+
   a, a:visited, a:hover, a:active {
     color: #e85d01;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: hsla(0, 0%, 100%, 0.9);
+  }
+
+  input {
+    background: #141414;
+    color: hsla(0, 0%, 100%, 0.9);
+    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    padding: 10px 5px;
   }
 }
